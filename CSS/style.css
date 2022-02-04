@@ -1,0 +1,311 @@
+html, body{
+height: 100%;
+width: 100%;
+}
+
+/* START HEADER */
+.top-header{
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgb(61, 60, 60);;
+}
+.top-header a{
+    color: whitesmoke;
+    
+}
+.bottom-header{
+    background-color:#969a9e ;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* END HEADER */
+
+/* START FOOTER */
+.full-footer{
+    background-color:#969a9e;
+    
+}
+.top-footer{
+    background-color:#969a9e;
+    color: white;
+    font-weight: 600;
+}
+.top-footer a{ 
+    color: white;   
+}
+.bottom-footer {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    font-weight: 600;
+}
+/* END FOOTER */
+
+/* START HOME PAGE - NAV BAR */
+.dropdown-item{
+    font-weight: 600;
+}
+/* END HOME PAGE - NAVY BAR */
+
+/* START HOME PAGE - First Section carousel-slides */
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption{
+    transform: translateY(30%);
+}
+.carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 12px;
+}
+/* END  - First Section carousel-slides */
+
+/*START - HOME PAGE 2nd section services */
+.second-section{
+    background-color: #f0f0f0;
+    
+}
+.second-section h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+}
+.second-section h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 250%;
+}
+/*END - HOME PAGE 2nd section services */
+
+/*START - HOME PAGE 3rd section services */
+.uslugi{
+    background-color: rgb(248, 246, 246);
+}
+/*END - HOME PAGE 3rd section services */
+
+/*START - HOME PAGE 5th section services */
+.parallax{
+    height: 30vw;
+    background-image: url("../imgs/rys-tech4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+/*END - HOME PAGE 5th section services */
+
+/*START - HOME PAGE 6th section services */
+.six-section{
+    background-color: #f0f0f0;
+    font-weight: 600;
+        
+    
+}
+.six-section h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+/*END - HOME PAGE 6th section services */
+
+
+
+/*CONTACT PAGE */
+
+/*START 1st section  */
+.bar{
+    
+    font-weight: 800;
+    border-radius: 17px;
+    color: rgb(86, 91, 95);
+}
+
+.contact .bar{
+    color: rgb(86, 91, 95);
+}
+
+.shadow{
+    font-size: 20px;
+    
+}
+/*END 1st section */
+
+/*START 2nd section  */
+.card .kontakt  h5{
+font-size:1.2rem;
+font-weight: 600;
+}
+
+.card .kontakt  p{
+    font-weight: 600;
+}
+/*END 2nd section */
+
+
+
+/*CNC PAGE */
+
+/*START 1st section  */
+.cnc h3{
+font-size: 200%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cnc p{
+font-size: 0.9rem;
+}
+/*END 1st section */
+
+
+
+/*COURSE PAGE */
+
+/*START - 3rd Programs section*/
+.programs-section h3{
+    font-weight: 600;
+}
+/*END - 3rd Programs section*/
+
+
+
+/*ABOUT PAGE */
+
+/*START - 1st  section*/
+.about h2{
+font-weight: 600;
+}
+/*END - 1st section*/
+
+/*START - 2nd  section*/
+.experience h3{
+    font-size: 2.5rem;
+}
+/*END - 2nd section*/
+.bar{
+    color: whitesmoke;
+}
+
+
+
+/*MACHINE PARK PAGE */
+
+/*START 1st section -title*/
+.park-section h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;   
+}
+.park-section p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.machine{
+    background-color: rgba(218, 217, 212, 0.329);
+}
+/*END 1st section -title*/
+
+
+
+
+/*START - breadcrumbs section*/
+.breadcrumbs-section{
+    background-color: #e9ecef;
+}
+/*END - breadcrumbs section*/
+
+
+/*START MEDIA*/
+@media (min-width: 1200px) {
+    .carousel-caption{
+        top: 78%;
+        transform: translateY(-42%);
+    }
+    .carousel-caption h1{
+        font-size: 400%;
+    }
+    .carousel-caption p{
+        font-size: 100%;
+        font-weight: 600;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 150%;
+        padding: 8px 12px;
+    }
+    }
+@media (max-width: 1200px) {
+    .carousel-caption{
+        top: 50%;
+      
+    }
+    .carousel-caption h1{
+        font-size: 300%;
+    }
+    .carousel-caption p{
+        font-size: 100%;
+        font-weight: 600;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 150%;
+        padding: 8px 12px;
+        
+    }
+    }
+    @media (max-width: 992px) {
+        .carousel-caption{
+            top: 40%;
+          
+        }
+        .carousel-caption h1{
+            font-size: 300%;
+        }
+        .carousel-caption p{
+            font-size: 100%;
+            font-weight: 600;
+            padding-bottom: .2rem;
+        }
+        .carousel-caption .btn{
+            font-size: 150%;
+            padding: 8px 12px;
+        }
+        }
+
+@media (max-width: 768px) {
+.carousel-caption{
+    top: 25%;
+  
+}
+.carousel-caption h1{
+    font-size: 300%;
+}
+.carousel-caption p{
+    font-size: 100%;
+    font-weight: 600;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+    font-size: 115%;
+    padding: 8px 12px;
+}
+}
+@media (max-width: 576px) {
+.carousel-caption{
+    top: 30%;    
+}
+.carousel-caption h1{
+    font-size: 150%;
+}
+.carousel-caption p{
+    font-size: 100%;
+    font-weight: 600;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+    font-size: 100%;
+    padding: 2px 4px;
+}
+}
+/*END MEDIA*/
+
+
+
+
+
